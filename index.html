@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#151515" />
+<link rel="manifest" href="/manifest.json">
+<link rel="shortcut icon" href="https://kaloodinaz.github.io/infinitewordle/favicon.ico">
+<link rel="apple-touch-icon" href="https://kaloodinaz.github.io/infinitewordle/apple-touch-icon.png" />
+<link rel="stylesheet" href="https://kaloodinaz.github.io/infinitewordle/global.css">
+<title>Infinite Wordle - Play Unlimited Wordle</title>
+<meta name="description" content="Play Infinite Wordle online and enjoy endless word puzzles without limits. Test your vocabulary, solve unlimited challenges, and improve your word-guessing skills anytime">
+<meta name="keywords" content="wordle, infinite wordle, wordle infinite, unlimited wordle, infinte wordle, unlimited, daily wordle, wordle+, word game, puzzle, game">
+<meta property="og:url" content="https://kaloodinaz.github.io/infinitewordle/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Play Infinite Wordle Unlimited Word Puzzle Game">
+<meta property="og:description" content="Challenge yourself with Infinite Wordle, the endless word-guessing game. Play unlimited puzzles, sharpen your vocabulary, and have fun anytime">
+<meta property="og:image" content="https://kaloodinaz.github.io/infinitewordle/ogimage.png">
+</head>
+<body>
+<script>
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js')
+.then(registration => {console.log('Service Worker registered successfully:', registration);})
+.catch(error => {console.log('Error in Service Worker registration:', error);});});}
+</script>
+<script type="module" crossorigin src="https://kaloodinaz.github.io/infinitewordle/main.js"></script>
+</body>
+</html>
